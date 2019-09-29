@@ -1,0 +1,13 @@
+.Nav
+{
+    display:flex;
+    justify-content: center;
+    height: 30px;
+    background-color: white;
+    height: 71px;
+    border-bottom: 1px solid gray;
+}
+.Nav > img
+{
+    height:100%;
+}

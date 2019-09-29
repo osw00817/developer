@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Developer Space</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="picture.css">
+    <link rel="stylesheet" href="explainF.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148881810-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148881810-1');
+</script>
+
+</head>
+<body>
+    <div class="base">
+            <div class="Nav">
+               <img class="Logo" src="LOGO.png">
+            </div>
+            <div id="picture" class="picture" onclick="location.href='https://discord.gg/7jzCRy'" title="클릭하시면 서버 주소로 연결됩니다.">
+                    <span class="join_grid">
+                                <div class="join1">개발자들의 공간에 참여하세요!</div> <br>
+                                <div class="join2">백여명이 넘는 개발자가 함께 하고 계십니다.</div> <br>
+                    </span>
+                </div>
+            <div class="explain">
+                <h1>코딩이 어려우신가요? 저희가 도와드리겠습니다.</h1>
+                <h3>파이썬부터 Js까지 모든걸 물어보세요.</h3>
+                <div class="box">
+                        <span class="grid">
+                                <div class="board" onclick="location.href='notice.html'">
+                                        <img src="notice.png" title="서버 접속">
+                                        <p style="margin-left:20px;">서버 접속</p>
+                                </div>
+                                <div class="history"onclick="location.href='explain.html'">
+                                        <img src="data.png" title="서버 설명">
+                                        <p style="margin-left:15px;">서버 설명</p>
+                                </div> 
+                                <div class="friend" onclick="location.href='BFsever.html'">
+                                        <img src="friend.png" title="협력 서버">
+                                        <p style="margin-left:30px;">협력 서버</p>
+                                </div>
+                                <div class="email" onclick="
+                                var Popurl = `email.html` 
+                                var PopOption = 'width=700,height=200;'
+                                window.open(Popurl,'운영진 연락처',PopOption);
+                                ">
+                                        <img src="person.png" title="운영진 연락처" >
+                                        <p style="margin-left:10px;">운영진 연락처</p>
+                                </div>
+                        </span>
+                </div>
+            </div>
+           
+            <div class="footer" style="text-align: center;">
+                    <hr style="width: 500px; margin:auto;">
+                    <img src="LOGO.png" style="width: 10%; margin:20px;">
+                    <p>DIA7691,도냐뉴,Piquark</p>
+                    <p style="margin-bottom:20px;">© 2018-2019 Developer Space 도냐뉴. All Right Reserved.</p>
+            </div>
+    </div>
+    <script src="Logo_Change.js"></script>
+    <script src="Logo_click.js"></script>
+</body>
+</html>

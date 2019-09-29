@@ -1,0 +1,37 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.Nav
+{
+    border-bottom: 1px solid gray;
+}
+.ex
+{
+    background-color:#f4f4f4;
+    height:100px;
+    width: 60%;
+    margin:80px auto;
+}
+.ex > p
+{
+    font-size:20px;
+    color:gray;
+    padding-top:40px;
+    padding-left:80px;
+}
+.explain
+{
+    background-color:#f4f4f4;
+    height:650px;
+    width: 60%;
+    margin:50px auto;
+}
+.explain > p
+{
+    color:gray;
+    
+    margin-left:20px;
+}

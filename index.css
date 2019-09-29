@@ -1,0 +1,11 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.base
+{
+ display:grid;
+ grid-template-rows:auto 400px 500px auto;
+}

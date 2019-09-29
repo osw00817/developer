@@ -1,0 +1,30 @@
+.picture
+{
+    height: 400px;
+    /*background-image: url("aa.png");*/
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture > .join_grid 
+{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    color:white;
+}
+.picture > .join_grid > .join1
+{
+    font-size:30px;
+}
+.picture > .join_grid > .join2
+{
+    padding-left:10px;
+    font-size:20px;
+}
+.picture > .join_grid > .join2
+{
+    padding-left:10px;
+    font-size:20px;
+}
